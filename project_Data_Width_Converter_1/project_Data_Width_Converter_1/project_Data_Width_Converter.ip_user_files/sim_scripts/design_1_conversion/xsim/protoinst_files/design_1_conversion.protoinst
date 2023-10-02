@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"design_1_conversion": {
+			"proto_instances": {
+			}
+		}
+	}
+}

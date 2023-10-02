@@ -1,0 +1,105 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: G:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 600c90150b5d4285874aeba311b53bc5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconstant_v1_1_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot design_1_conversion_wrapper_tb_behav xil_defaultlib.design_1_conversion_wrapper_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.std_logic_textio
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture gnd_v of entity unisim.GND [gnd_default]
+Compiling architecture vcc_v of entity unisim.VCC [vcc_default]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1001000000001001")(0...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10010110011010010110...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0110100110010110")(0...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10010110")(0,7)\]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="0110")(0,3)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="01101001100101101001...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_xpm_cdc_gray [design_1_conversion_fifo_generat...]
+Compiling architecture structure of entity xil_defaultlib.\design_1_conversion_fifo_generator_0_0_xpm_cdc_gray__2\ [\design_1_conversion_fifo_genera...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_clk_x_pntrs [design_1_conversion_fifo_generat...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111111110010")(0...]
+Compiling architecture carry4_v of entity unisim.CARRY4 [carry4_default]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_compare_1 [design_1_conversion_fifo_generat...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111111111111111...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_compare_2 [design_1_conversion_fifo_generat...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1110111110111010")(0...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1011")(0,3)\]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="0010")(0,3)\]
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE(init='1')\]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_rd_status_flags_as [design_1_conversion_fifo_generat...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_rd_handshaking_flags [design_1_conversion_fifo_generat...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1001101010101010")(0...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000000000000000...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10101010011010101010...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10101010101010100110...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1010011010101010")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10101010011010101010...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11110111111111111111...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10100110")(0,7)\]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000000000001010...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_rd_bin_cntr [design_1_conversion_fifo_generat...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_rd_logic [design_1_conversion_fifo_generat...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_compare [design_1_conversion_fifo_generat...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000000000001111...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_compare_0 [design_1_conversion_fifo_generat...]
+Compiling architecture fdse_v of entity unisim.FDSE [\FDSE(init='0')\]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_wr_status_flags_as [design_1_conversion_fifo_generat...]
+Compiling architecture lut1_v of entity unisim.LUT1 [\LUT1(init="0001")(0,3)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="01111000")(0,7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0111111110000000")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="01111111111111111000...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="01111111111111111111...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10000000000000000000...]
+Compiling architecture fdse_v of entity unisim.FDSE [fdse_default]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_wr_bin_cntr [design_1_conversion_fifo_generat...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_wr_logic [design_1_conversion_fifo_generat...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(init_a="0000...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(read_width_a=36,read_w...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_blk_mem_gen_prim_wrapper [design_1_conversion_fifo_generat...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_blk_mem_gen_prim_width [design_1_conversion_fifo_generat...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(0,15)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10111010")(0,7)\]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1110")(0,3)\]
+Compiling architecture structure of entity xil_defaultlib.\design_1_conversion_fifo_generator_0_0_blk_mem_gen_prim_wrapper__parameterized0\ [\design_1_conversion_fifo_genera...]
+Compiling architecture structure of entity xil_defaultlib.\design_1_conversion_fifo_generator_0_0_blk_mem_gen_prim_width__parameterized0\ [\design_1_conversion_fifo_genera...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_blk_mem_gen_generic_cstr [design_1_conversion_fifo_generat...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_blk_mem_gen_top [design_1_conversion_fifo_generat...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_blk_mem_gen_v8_4_3_synth [design_1_conversion_fifo_generat...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_blk_mem_gen_v8_4_3 [design_1_conversion_fifo_generat...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_memory [design_1_conversion_fifo_generat...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="11110100")(0,7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111110001010")(0...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111111111111111...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_xpm_cdc_single [design_1_conversion_fifo_generat...]
+Compiling architecture structure of entity xil_defaultlib.\design_1_conversion_fifo_generator_0_0_xpm_cdc_single__2\ [\design_1_conversion_fifo_genera...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_xpm_cdc_sync_rst [design_1_conversion_fifo_generat...]
+Compiling architecture structure of entity xil_defaultlib.\design_1_conversion_fifo_generator_0_0_xpm_cdc_sync_rst__2\ [\design_1_conversion_fifo_genera...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_reset_blk_ramfifo [design_1_conversion_fifo_generat...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_fifo_generator_ramfifo [design_1_conversion_fifo_generat...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_fifo_generator_top [design_1_conversion_fifo_generat...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_fifo_generator_v13_2_4_synth [design_1_conversion_fifo_generat...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0_fifo_generator_v13_2_4 [design_1_conversion_fifo_generat...]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_fifo_generator_0_0 [design_1_conversion_fifo_generat...]
+Compiling architecture behavioral of entity xil_defaultlib.width_conv_AI [width_conv_ai_default]
+Compiling architecture design_1_conversion_width_conv_ai_0_0_arch of entity xil_defaultlib.design_1_conversion_width_conv_AI_0_0 [design_1_conversion_width_conv_a...]
+Compiling module xlconstant_v1_1_6.xlconstant_v1_1_6_xlconstant(CON...
+Compiling module xil_defaultlib.design_1_conversion_xlconstant_1...
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion [design_1_conversion_default]
+Compiling architecture structure of entity xil_defaultlib.design_1_conversion_wrapper [design_1_conversion_wrapper_defa...]
+Compiling architecture bench of entity xil_defaultlib.design_1_conversion_wrapper_tb
+Built simulation snapshot design_1_conversion_wrapper_tb_behav

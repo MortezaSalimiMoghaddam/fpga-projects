@@ -1,0 +1,272 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x6B89E352ED89AF3C",
+      "device": "xc7a35tcsg324-1",
+      "name": "design_1_conversion",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "fifo_generator_0": "",
+      "width_conv_AI_0": "",
+      "xlconstant_1": "",
+      "xlconstant_0": ""
+    },
+    "ports": {
+      "in_data": {
+        "type": "data",
+        "direction": "I",
+        "left": "19",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "in_dv": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "resetn": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "out_data": {
+        "type": "data",
+        "direction": "O",
+        "left": "63",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "out_dv": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "clk_in": {
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_conversion_clk_in",
+            "value_src": "default_prop"
+          },
+          "FREQ_HZ": {
+            "value": "200000000",
+            "value_src": "user_prop"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default_prop"
+          }
+        }
+      },
+      "clk_out": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "fifo_generator_0": {
+        "vlnv": "xilinx.com:ip:fifo_generator:13.2",
+        "xci_name": "design_1_conversion_fifo_generator_0_0",
+        "parameters": {
+          "Enable_Safety_Circuit": {
+            "value": "true"
+          },
+          "Fifo_Implementation": {
+            "value": "Independent_Clocks_Block_RAM"
+          },
+          "Full_Flags_Reset_Value": {
+            "value": "1"
+          },
+          "Input_Data_Width": {
+            "value": "64"
+          },
+          "Output_Data_Width": {
+            "value": "64"
+          },
+          "Valid_Flag": {
+            "value": "true"
+          }
+        }
+      },
+      "width_conv_AI_0": {
+        "vlnv": "xilinx.com:module_ref:width_conv_AI:1.0",
+        "xci_name": "design_1_conversion_width_conv_AI_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "width_conv_AI",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "resetn": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_LOW",
+                "value_src": "constant"
+              }
+            }
+          },
+          "in_data": {
+            "direction": "I",
+            "left": "19",
+            "right": "0",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "undef",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "in_dv": {
+            "direction": "I",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "undef",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "clk_in": {
+            "direction": "I",
+            "parameters": {
+              "CLK_DOMAIN": {
+                "value": "design_1_conversion_clk_in",
+                "value_src": "default_prop"
+              },
+              "FREQ_HZ": {
+                "value": "200000000",
+                "value_src": "user_prop"
+              },
+              "PHASE": {
+                "value": "0.000",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "out_dv": {
+            "direction": "O"
+          },
+          "out_data": {
+            "direction": "O",
+            "left": "63",
+            "right": "0"
+          }
+        }
+      },
+      "xlconstant_1": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_conversion_xlconstant_1_0",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          }
+        }
+      },
+      "xlconstant_0": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_conversion_xlconstant_0_0"
+      }
+    },
+    "nets": {
+      "in_data_1": {
+        "ports": [
+          "in_data",
+          "width_conv_AI_0/in_data"
+        ]
+      },
+      "in_dv_1": {
+        "ports": [
+          "in_dv",
+          "width_conv_AI_0/in_dv"
+        ]
+      },
+      "clk_in_1": {
+        "ports": [
+          "clk_in",
+          "width_conv_AI_0/clk_in",
+          "fifo_generator_0/wr_clk"
+        ]
+      },
+      "width_conv_AI_0_out_data": {
+        "ports": [
+          "width_conv_AI_0/out_data",
+          "fifo_generator_0/din"
+        ]
+      },
+      "fifo_generator_0_dout": {
+        "ports": [
+          "fifo_generator_0/dout",
+          "out_data"
+        ]
+      },
+      "fifo_generator_0_valid": {
+        "ports": [
+          "fifo_generator_0/valid",
+          "out_dv"
+        ]
+      },
+      "clk_out_1": {
+        "ports": [
+          "clk_out",
+          "fifo_generator_0/rd_clk"
+        ]
+      },
+      "resetn_1": {
+        "ports": [
+          "resetn",
+          "width_conv_AI_0/resetn"
+        ]
+      },
+      "xlconstant_1_dout": {
+        "ports": [
+          "xlconstant_1/dout",
+          "fifo_generator_0/rst"
+        ]
+      },
+      "width_conv_AI_0_out_dv": {
+        "ports": [
+          "width_conv_AI_0/out_dv",
+          "fifo_generator_0/wr_en"
+        ]
+      },
+      "xlconstant_0_dout": {
+        "ports": [
+          "xlconstant_0/dout",
+          "fifo_generator_0/rd_en"
+        ]
+      }
+    }
+  }
+}

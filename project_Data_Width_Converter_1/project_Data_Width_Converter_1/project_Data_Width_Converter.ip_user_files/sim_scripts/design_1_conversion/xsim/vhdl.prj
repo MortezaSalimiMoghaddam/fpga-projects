@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1_conversion/ip/design_1_conversion_width_conv_AI_0_0/sim/design_1_conversion_width_conv_AI_0_0.vhd" \
+"../../../bd/design_1_conversion/ip/design_1_conversion_fifo_generator_0_0/design_1_conversion_fifo_generator_0_0_sim_netlist.vhdl" \
+"../../../bd/design_1_conversion/sim/design_1_conversion.vhd" \
+
+nosort

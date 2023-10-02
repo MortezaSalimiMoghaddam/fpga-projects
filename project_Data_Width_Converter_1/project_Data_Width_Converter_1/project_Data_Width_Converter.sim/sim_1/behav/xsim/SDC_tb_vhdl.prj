@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_Data_Width_Converter.srcs/sources_1/new/width_conv_AI.vhd" \
+"../../../../project_Data_Width_Converter.srcs/sim_1/new/SDC_tb.vhd" \
+
+# Do not sort compile order
+nosort

@@ -10,7 +10,7 @@ statement which means that code is fully synchronous, given we have only one clo
 edited so that it takes only one input and seperates all the two consecutively presented numbers and operates on them
 
 ### project_Data_Width_Converter_1
-takes in 20-bit inputs and gives 64-bit outputs. This project exersices some of the concepts of CDC and timing 
+takes in 20-bit inputs and gives 64-bit outputs. This project exercises some of the concepts of CDC and timing 
 constraints that are of high importance when using vivado professionally.
 
 #### the pdf files are the result of my researchs and I hope that they come in handy for you! 

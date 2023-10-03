@@ -2,7 +2,7 @@
 Here are the projects I've done on Vivado using VHDL
 
 ### project_1
-is a BCD to binary converter that can handle transformation of numbers up to 99 which are fiven in BCD.
+is a BCD to binary converter that can handle transformation of numbers up to 99 which are given in BCD.
 
 ### project1_extended
 provides you with the code of project one which has been edited so that in can get the job done using only one process 

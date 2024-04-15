@@ -1,0 +1,18 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+E:/FPGA/cdc_uart/cdc_uart.srcs/sim_1/new/BitSync_tb.vhd,1710166691,vhdl,,,,bitsync_tb,,,,,,,,
+E:/FPGA/cdc_uart/cdc_uart.srcs/sim_1/new/DualPortRam_tb.vhd,1710750536,vhdl,,,,dualportram_tb,,,,,,,,
+E:/FPGA/cdc_uart/cdc_uart.srcs/sim_1/new/Fifo_tb.vhd,1710703237,vhdl,,,,fifo_tb,,,,,,,,
+E:/FPGA/cdc_uart/cdc_uart.srcs/sim_1/new/HandshakeSync_tb.vhd,1711214614,vhdl,,,,handshakesync_tb,,,,,,,,
+E:/FPGA/cdc_uart/cdc_uart.srcs/sim_1/new/RX_tb.vhd,1711205585,vhdl,,,,rx_tb,,,,,,,,
+E:/FPGA/cdc_uart/cdc_uart.srcs/sim_1/new/TX_tb.vhd,1711107130,vhdl,,,,tx_tb,,,,,,,,
+E:/FPGA/cdc_uart/cdc_uart.srcs/sim_1/new/uart_tb.vhd,1711228496,vhdl,,,,uart_tb,,,,,,,,
+E:/FPGA/cdc_uart/cdc_uart.srcs/sources_1/new/BitSync.vhd,1710166733,vhdl,E:/FPGA/cdc_uart/cdc_uart.srcs/sources_1/new/Fifo.vhd;E:/FPGA/cdc_uart/cdc_uart.srcs/sources_1/new/HandshakeSync.vhd;E:/FPGA/cdc_uart/cdc_uart.srcs/sources_1/new/RX.vhd;E:/FPGA/cdc_uart/cdc_uart.srcs/sources_1/new/uart.vhd,,,bitsync,,,,,,,,
+E:/FPGA/cdc_uart/cdc_uart.srcs/sources_1/new/DualPortRam.vhd,1711220460,vhdl,E:/FPGA/cdc_uart/cdc_uart.srcs/sources_1/new/Fifo.vhd,,,dualportram,,,,,,,,
+E:/FPGA/cdc_uart/cdc_uart.srcs/sources_1/new/Fifo.vhd,1711232100,vhdl,E:/FPGA/cdc_uart/cdc_uart.srcs/sources_1/new/uart.vhd,,,fifo,,,,,,,,
+E:/FPGA/cdc_uart/cdc_uart.srcs/sources_1/new/HandshakeSync.vhd,1710590003,vhdl,E:/FPGA/cdc_uart/cdc_uart.srcs/sources_1/new/Fifo.vhd,,,handshakesync,,,,,,,,
+E:/FPGA/cdc_uart/cdc_uart.srcs/sources_1/new/RX.vhd,1711210472,vhdl,E:/FPGA/cdc_uart/cdc_uart.srcs/sources_1/new/uart.vhd,,,rx,,,,,,,,
+E:/FPGA/cdc_uart/cdc_uart.srcs/sources_1/new/TX.vhd,1711228655,vhdl,E:/FPGA/cdc_uart/cdc_uart.srcs/sources_1/new/uart.vhd,,,tx,,,,,,,,
+E:/FPGA/cdc_uart/cdc_uart.srcs/sources_1/new/uart.vhd,1711234328,vhdl,E:/FPGA/cdc_uart/cdc_uart.srcs/sim_1/new/uart_tb.vhd,,,uart,,,,,,,,

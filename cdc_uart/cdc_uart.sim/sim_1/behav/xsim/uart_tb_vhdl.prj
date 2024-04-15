@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../cdc_uart.srcs/sources_1/new/BitSync.vhd" \
+"../../../../cdc_uart.srcs/sources_1/new/DualPortRam.vhd" \
+"../../../../cdc_uart.srcs/sources_1/new/HandshakeSync.vhd" \
+"../../../../cdc_uart.srcs/sources_1/new/Fifo.vhd" \
+"../../../../cdc_uart.srcs/sources_1/new/RX.vhd" \
+"../../../../cdc_uart.srcs/sources_1/new/TX.vhd" \
+"../../../../cdc_uart.srcs/sources_1/new/uart.vhd" \
+"../../../../cdc_uart.srcs/sim_1/new/uart_tb.vhd" \
+
+# Do not sort compile order
+nosort

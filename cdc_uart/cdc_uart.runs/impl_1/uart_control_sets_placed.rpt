@@ -1,0 +1,98 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Mar 24 02:25:10 2024
+| Host         : DESKTOP-1JLH29I running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file uart_control_sets_placed.rpt
+| Design       : uart
+| Device       : xa7s100
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    20 |
+|    Minimum number of control sets                        |    20 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    74 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    20 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     3 |
+| >= 10 to < 12      |     6 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     6 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              25 |            9 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              53 |           15 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             200 |           53 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------+------------------------------------------+------------------------------+------------------+----------------+
+|    Clock Signal    |               Enable Signal              |       Set/Reset Signal       | Slice Load Count | Bel Load Count |
++--------------------+------------------------------------------+------------------------------+------------------+----------------+
+|  UserClk_IBUF_BUFG |                                          | fifo/hs_tail/UserRst         |                1 |              1 |
+|  Clk_IBUF_BUFG     |                                          |                              |                2 |              3 |
+|  Clk_IBUF_BUFG     | RX_inst/Rx_Sync/E[0]                     | Rst_IBUF                     |                2 |              5 |
+|  Clk_IBUF_BUFG     | TX_inst/FSM_onehot_NextState[4]_i_1_n_0  | Rst_IBUF                     |                2 |              5 |
+|  Clk_IBUF_BUFG     | TX_inst/TxByte                           | Rst_IBUF                     |                2 |              8 |
+|  Clk_IBUF_BUFG     | RX_inst/ByteReg                          | Rst_IBUF                     |                1 |              8 |
+|  Clk_IBUF_BUFG     | RX_inst/FSM_onehot_NextState_reg_n_0_[4] | Rst_IBUF                     |                2 |              8 |
+|  Clk_IBUF_BUFG     | fifo/hs_head/rs/E[0]                     | Rst_IBUF                     |                3 |             10 |
+|  Clk_IBUF_BUFG     | fifo/hs_head/E[0]                        | Rst_IBUF                     |                3 |             10 |
+|  Clk_IBUF_BUFG     | fifo/hs_tail/tx_reg_en_reg_n_0           | Rst_IBUF                     |                2 |             10 |
+|  UserClk_IBUF_BUFG | fifo/hs_head/tx_reg_en                   | UserRst_IBUF                 |                2 |             10 |
+|  UserClk_IBUF_BUFG | fifo/hs_tail/rs/E[0]                     | UserRst_IBUF                 |                3 |             10 |
+|  UserClk_IBUF_BUFG | fifo/hs_tail/E[0]                        | UserRst_IBUF                 |                2 |             10 |
+|  Clk_IBUF_BUFG     | TX_inst/ClkCount                         | Rst_IBUF                     |                4 |             13 |
+|  UserClk_IBUF_BUFG |                                          |                              |                7 |             22 |
+|  Clk_IBUF_BUFG     |                                          | Rst_IBUF                     |                8 |             26 |
+|  UserClk_IBUF_BUFG |                                          | UserRst_IBUF                 |                6 |             26 |
+|  Clk_IBUF_BUFG     | RX_inst/Rx_Sync/StopFreq                 | Rst_IBUF                     |                8 |             31 |
+|  Clk_IBUF_BUFG     | RX_inst/p_2_in                           | RX_inst/ClkCount[30]_i_1_n_0 |                9 |             31 |
+|  Clk_IBUF_BUFG     | TX_inst/StopFreq                         | Rst_IBUF                     |                8 |             31 |
++--------------------+------------------------------------------+------------------------------+------------------+----------------+
+
+

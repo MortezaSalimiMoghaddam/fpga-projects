@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/FPGA/cdc_uart/cdc_uart.srcs/sources_1/new/uart.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/FPGA/cdc_uart/cdc_uart.srcs/sim_1/new/uart_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_tb'

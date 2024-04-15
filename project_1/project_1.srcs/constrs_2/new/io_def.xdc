@@ -1,0 +1,27 @@
+# Clock signal
+set_property -dict { PACKAGE_PIN E3    IOSTANDARD LVCMOS33 } [get_ports { clk }]; #IO_L12P_T1_MRCC_35 Sch=gclk[100]
+create_clock -add -name sys_clk_pin -period 10.00 -waveform {0 5} [get_ports { clk }];
+
+set_property -dict { PACKAGE_PIN F6    IOSTANDARD LVCMOS33 } [get_ports {binary[0]}]
+set_property -dict { PACKAGE_PIN J4    IOSTANDARD LVCMOS33 } [get_ports {binary[1]}]
+set_property -dict { PACKAGE_PIN J2    IOSTANDARD LVCMOS33 } [get_ports {binary[2]}]
+set_property -dict { PACKAGE_PIN H6    IOSTANDARD LVCMOS33 } [get_ports {binary[3]}]
+set_property -dict { PACKAGE_PIN H5    IOSTANDARD LVCMOS33 } [get_ports {binary[4]}]
+set_property -dict { PACKAGE_PIN J5    IOSTANDARD LVCMOS33 } [get_ports {binary[5]}]
+set_property -dict { PACKAGE_PIN T9    IOSTANDARD LVCMOS33 } [get_ports {binary[6]}]
+set_property -dict { PACKAGE_PIN T10    IOSTANDARD LVCMOS33 } [get_ports ready]
+set_property -dict { PACKAGE_PIN A8    IOSTANDARD LVCMOS33 } [get_ports {bcd_1[0]}]
+set_property -dict { PACKAGE_PIN C11    IOSTANDARD LVCMOS33 } [get_ports {bcd_1[1]}]
+set_property -dict { PACKAGE_PIN A10    IOSTANDARD LVCMOS33 } [get_ports {bcd_1[3]}]
+set_property -dict { PACKAGE_PIN C10    IOSTANDARD LVCMOS33 } [get_ports {bcd_1[2]}]
+set_property -dict { PACKAGE_PIN B9    IOSTANDARD LVCMOS33 } [get_ports active]
+set_property -dict { PACKAGE_PIN B8    IOSTANDARD LVCMOS33 } [get_ports pb]
+set_property -dict { PACKAGE_PIN C9    IOSTANDARD LVCMOS33 } [get_ports reset]
+set_property -dict { PACKAGE_PIN D9    IOSTANDARD LVCMOS33 } [get_ports start]
+
+#set_property IOSTANDARD LVCMOS33 [get_ports pb]
+#set_property IOSTANDARD LVCMOS33 [get_ports active]
+#set_property IOSTANDARD LVCMOS33 [get_ports {bcd_1[2]}]
+#set_property IOSTANDARD LVCMOS33 [get_ports {bcd_1[1]}]
+#set_property IOSTANDARD LVCMOS33 [get_ports {bcd_1[0]}]
+#set_property IOSTANDARD LVCMOS33 [get_ports {bcd_1[3]}]

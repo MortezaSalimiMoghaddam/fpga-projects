@@ -5,9 +5,7 @@ Here are the projects I've done on Vivado using VHDL
 Is a BCD to binary converter that can handle transformation of numbers up to 99 which are fiven in BCD.
 
 ### project1_extended
-Provides you with the code of project one which has been edited so that in can get the job done using only one process 
-statement which means that code is fully synchronous, given we have only one clock in this project. it's also been 
-edited so that it takes only one input and seperates all the two consecutively presented numbers and operates on them
+Provides you with the code of project one which has been edited so that the whole circuit system is implemented sequentially.
 
 ### project_Data_Width_Converter_1
 Takes in 20-bit inputs and gives 64-bit outputs. This project exercises some of the concepts of CDC and timing 
